@@ -4,7 +4,7 @@ function moveDodgerLeft() {
     const left = parseInt(leftNumbers, 10);
   //moves the DODGER to the left
     if (left > 0) {
-      dodger.style.left = `${left - 1}px`;
+      dodger.style.left = `${left - 2}px`;
     }
   }
   document.addEventListener("keydown", function (e) {
